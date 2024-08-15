@@ -10,13 +10,20 @@
 
   &.primary {
     background-color: $green-color;
-        color: $white-color;
+    color: $white-color;
   }
 
   &.secundary {
     background-color: $white-color;
     color: $purple-color;
   }
-}
 
- 
+  &.full {
+    padding: 21px;
+    display: 100%;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: $green3-color;
+    color: $white-color;
+  }
+}
